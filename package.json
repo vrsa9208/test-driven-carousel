@@ -4,5 +4,17 @@
   "main": "index.js",
   "author": "vrsa9208",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "hello-babel": "babel hello-babel.js | node"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "7.2.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/cli": "7.2.0",
+    "figlet": "^1.2.4"
+  }
 }
