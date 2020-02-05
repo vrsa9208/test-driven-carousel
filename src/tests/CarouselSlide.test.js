@@ -96,4 +96,8 @@ describe("Img", () => {
     expect(mounted.find(TestImg)).toHaveStyleRule("height", "auto");
     expect(mounted.find(TestImg)).toHaveStyleRule("object-fit", "fill");
   });
+
+  it("renders correctly", () => {
+    expect(mounted.find("img")).toMatchSnapshot();
+  });
 });

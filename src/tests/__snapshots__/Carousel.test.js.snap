@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel renders correctly 1`] = `
+<div
+  attribution="Attribution"
+  description="Description"
+>
+  <CarouselSlide
+    Img={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "CarouselSlide__DefaultImg-ds4ujd-0",
+          "isStatic": false,
+          "rules": Array [
+            "object-fit:cover;width:100%;height:",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "CarouselSlide__DefaultImg",
+        "render": [Function],
+        "styledComponentId": "CarouselSlide__DefaultImg-ds4ujd-0",
+        "target": "img",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    attribution="Uno Pizzeria"
+    description="Slide 1"
+    imgHeight={500}
+    imgUrl="https://example.com/slide1.png"
+  />
+  <CarouselButton
+    data-action="prev"
+    onClick={[Function]}
+  >
+    Prev
+  </CarouselButton>
+  <CarouselButton
+    data-action="next"
+    onClick={[Function]}
+  >
+    Next
+  </CarouselButton>
+</div>
+`;

@@ -116,4 +116,12 @@ describe("Carousel", () => {
     expect(wrapper.find(CarouselSlide).prop("Img")).toBe(Img);
     expect(wrapper.find(CarouselSlide).prop("imgHeight")).toBe(imgHeight);
   });
+
+  it("renders correctly", () => {
+    wrapper.setProps({
+      description: "Description",
+      attribution: "Attribution"
+    });
+    expect(wrapper).toMatchSnapshot();
+  });
 });
