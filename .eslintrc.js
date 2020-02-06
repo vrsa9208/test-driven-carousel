@@ -9,5 +9,8 @@ module.exports = {
     react: {
       version: "16.4.2"
     }
+  },
+  rules: {
+    "no-unused-vars": ["error", { varsIgnorePattern: "^_" }]
   }
 };
