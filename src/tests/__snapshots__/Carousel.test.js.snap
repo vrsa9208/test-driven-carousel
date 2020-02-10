@@ -13,6 +13,7 @@ exports[`Carousel core component renders correctly 1`] = `
         "componentStyle": ComponentStyle {
           "componentId": "CarouselSlide__DefaultImg-ds4ujd-0",
           "isStatic": false,
+          "lastClassName": "gcyqpE",
           "rules": Array [
             "object-fit:cover;width:100%;height:",
             [Function],
