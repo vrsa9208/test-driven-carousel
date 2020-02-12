@@ -45,7 +45,7 @@ export default (Component, propName, upperBoundPropName) =>
 
       if (typeof this.props[upperBoundPropName] === "number") {
         upperBound = this.props[upperBoundPropName];
-      } else if (typeof this.props[upperBoundPropName] != null) {
+      } else if (typeof this.props[upperBoundPropName] != undefined) {
         upperBound = this.props[upperBoundPropName].length;
       }
 
